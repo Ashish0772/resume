@@ -338,13 +338,18 @@ nav {
 
 
 /* hero-content p animation*/
-.hero-content p {
+.laptop-para,
+.under-laptop-para{
     max-width: 40rem;
     font-size: 1.1rem;
     animation-delay: 3.8s;
     transition: var(--all-transition);
     text-align: justify;
 
+}
+
+.under-laptop-para {
+    display: none;
 }
 
 
@@ -904,6 +909,10 @@ nav {
     flex: 1 1 15rem;
 }
 
+.feature-native{
+    white-space: nowrap;
+}
+
 
 /* feature */
 /* feature a  */
@@ -1353,6 +1362,14 @@ body::-webkit-scrollbar-thumb {
         margin-top: 4rem;
     }
 
+    .laptop-para {
+        display: none;
+    }
+
+    .under-laptop-para {
+        display: block;
+    }
+
 
     /* aboutt section start here */
 
@@ -1491,6 +1508,12 @@ body::-webkit-scrollbar-thumb {
         padding: .5rem var(--base-font-size);
         font-size: var(--base-font-size);
     }
+
+
+    .forward-up {
+        width: 3.5rem;
+        height: 3.5rem;
+    }
 }
 
 
@@ -1506,4 +1529,20 @@ body::-webkit-scrollbar-thumb {
     .right-contact-form {
         padding: var(--base-font-size);
     }
+
+    /* social-icon */
+.social-icon {
+    top: 7rem;
+
+}
+
+/* social-icon-btn */
+.social-icon-btn {
+    width: 2rem;
+}
+
+
+
+
+
 }
