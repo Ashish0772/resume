@@ -1459,6 +1459,10 @@ body::-webkit-scrollbar-thumb {
         z-index: 1;
     }
 
+    .contact {
+        padding: 0.4rem;
+    }
+
     .forward-up {
         display: flex;
     }
