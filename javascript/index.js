@@ -1,4 +1,4 @@
-const anchorMenu = document.getElementsByClassName("anchor");
+const anchorMenu = document.getElementsByClassName("link");
 
 const menuList = Array.from(anchorMenu);
 menuList.forEach(active => {
