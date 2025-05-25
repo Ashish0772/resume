@@ -1022,9 +1022,6 @@ nav {
     border-radius: .4rem;
 }
 
-.project button, .certificate button {
-}
-
 .project button a:hover, .certificate button a:hover{
     background: var(--primary-color);
     color: var(--secondary-color);
