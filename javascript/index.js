@@ -18,7 +18,7 @@ menuList.forEach(active => {
 });
 
 
-// for progress- part section span value 
+// for progress- part section value 
 const skillValue = [
     {
         value: "99%",
@@ -87,7 +87,7 @@ const skillValue = [
 
 ]
 
-// Create progress-part Dynamic
+// Create progress-part Dynamically
 for (let i = 0; i < skillValue.length; i++) {
     
     function skillPart(skillValue) {
