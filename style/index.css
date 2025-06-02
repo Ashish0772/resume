@@ -909,6 +909,9 @@ nav {
 .feature-container-section {
     padding-right: .5rem;
     row-gap: 2.4rem;
+    display: grid;
+    grid-template-rows: repeat(auto, auto);
+    grid-template-columns: repeat(4, auto);
 }
 
 
@@ -1478,7 +1481,7 @@ body::-webkit-scrollbar-thumb {
         display: flex;
     }
 
-    .grid-class {
+    .grid-class, .feature-container-section{
         grid-template-rows: auto;
         grid-template-columns: auto;
     }
