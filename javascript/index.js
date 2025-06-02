@@ -204,7 +204,3 @@ for(let i = 0; i<featureValue.length; i++)
 
     featurePart(featureValue);
 }
-
-
-
-
