@@ -15,3 +15,5 @@ menuList.forEach(active => {
     }); 
 
 });
+
+// maine yesahi check kya hain ki ye work kar raha hain ya nahi
