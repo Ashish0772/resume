@@ -11,7 +11,7 @@
 
 <body>
     <!-- main -->
-    <div class="main">
+    <div class="main" id="home">
 
 
         <!-- header -->
@@ -46,56 +46,7 @@
 
                     <!-- Menu-box -->
                     <div class="menu-container">
-
-
-                        <!-- Menu-check-box -->
-                        <input type="checkbox" class="menu-check">
-
-
-                        <!-- manu list -->
-                        <!-- flex-ul -->
-                        <ul class="flex-ul fade">
-
-                            <li>
-                                <a class="anchor link active" href="#home">
-                                    Home
-                                </a>
-                            </li>
-
-
-                            <li>
-                                <a class="anchor link" href="#about-us">
-                                    About Us
-                                </a>
-                            </li>
-
-
-                            <li>
-                                <a class="anchor link" href="#skill">
-                                    Skill
-                                </a>
-                            </li>
-
-
-                            <li>
-                                <a class="anchor link" href="#project">
-                                    Project
-                                </a>
-                            </li>
-
-                            <li>
-                                <a class="anchor link" href="#contact-us">
-                                    Contact Us
-                                </a>
-                            </li>
-
-                            <li>
-                                <a class="anchor link" href="next.html">
-                                    What next
-                                </a>
-                            </li>
-
-                        </ul>
+                        <!-- list element create dynamically -->
 
                     </div>
 
@@ -108,7 +59,7 @@
 
 
         <!-- hero-section -->
-        <section class="hero-section" id="home">
+        <section class="hero-section">
 
             <!-- hero -->
             <div class="hero">
@@ -286,13 +237,13 @@
 
 
                 <!-- about-left -->
-                <div class="about-left flex-class">
+                <div class="about-left">
 
                     <!-- about-left-section -->
                     <div class="about-left-section" width="100%">
 
                         <!-- about-left-img -->
-                        <img src="./images/hero-blackwhite-img.webp" alt="">
+                        <img src="./images/hero-blackwhite-img.webp" alt="about-img" width="100%">
 
                     </div>
 
@@ -350,7 +301,7 @@
 
                         <li>
                             <i class="ri-arrow-drop-right-line"></i>
-                            <strong>Email: <span> aashishkkumar2024@gmail.com</span></strong>
+                            <strong>Email: <span> aashishkkumar2024<span class="email"> </span>@gmail.com</span></strong>
                         </li>
 
                         <li>
@@ -404,7 +355,7 @@
 
 
                 <!-- progress-section -->
-                <div class="progress-section flex-class">
+                <div class="progress-section grid-class">
 
                     <!-- Dynamically creation by js  -->
                     
@@ -439,7 +390,7 @@
 
 
                 <!-- feature-container-section -->
-                <div class="feature-container-section flex-class">
+                <div class="feature-container-section">
 
                     <!-- Dynamically data created by js  -->
 
@@ -466,124 +417,7 @@
                 <!-- project-container-section -->
                 <div class="project-container-section grid-class">
 
-
-                    <!--First project -->
-                    <div class="project">
-
-                        <div>
-                            <h4>Age Calculator</h4>
-                            <img src="images/AgeCalculator.jpg" alt="Age-claculator" width="100%">
-                        </div>
-
-                        <div>
-
-                            <div class="project-btn flex-class">
-                                <button>
-                                    <a href="https://ashish0772.github.io/AgeCalculator/" class="anchor">View</a>
-                                </button>
-                            </div>
-                        </div>
-
-                    </div>
-
-                    <!--Second project -->
-                    <div class="project">
-
-                        <div>
-                            <h4>Password Generate project</h4>
-                            <video autoplay muted loop width="100%">
-                                <source src="videos/passwordGenerate.mp4" type="video/mp4">
-                            </video>
-                        </div>
-
-                        <div>
-                            <div class="project-btn flex-class">
-                                <button>
-                                    <a href="https://ashish0772.github.io/PasswordGenerate/" class="anchor">View</a>
-                                </button>
-                            </div>
-                        </div>
-
-                    </div>
-
-                    <!--Third project -->
-                    <div class="project">
-
-                        <div>
-                            <h4>PDF Reader</h4>
-                            <img src="images/pdfReader.png" alt="solor_system" width="100%">
-                        </div>
-
-                        <div>
-                            <div class="project-btn flex-class">
-                                <button>
-                                    <a href="https://ashish0772.github.io/pdfReader/" class="anchor">View</a>
-                                </button>
-                            </div>
-                        </div>
-
-                    </div>
-
-                    <!--Four project -->
-                    <div class="project">
-
-                        <div>
-
-                            <h4>Netflix Clone project</h4>
-                            <img src="images/netflixClone.webp" alt="solor_system" width="100%">
-
-                        </div>
-
-                        <div>
-
-                            <div class="project-btn flex-class">
-                                <button>
-                                    <a href="https://ashish0772.github.io/NetflixClone/" class="anchor">View</a>
-                                </button>
-                            </div>
-                        </div>
-
-                    </div>
-
-                    <!--Five project -->
-                    <div class="project">
-
-                        <div>
-
-                            <h4>RockPaperScissor Game project</h4>
-                            <img src="images/RockPaperScissor.png" alt="solor_system" width="100%">
-
-                        </div>
-
-                        <div>
-                            <div class="project-btn flex-class">
-                                <button>
-                                    <a href=" https://ashish0772.github.io/RockScissorPaperGame/" class="anchor">View</a>
-                                </button>
-                            </div>
-                        </div>
-
-                    </div>
-
-                     <!--Six project -->
-                    <div class="project">
-
-                        <div>
-
-                            <h4>LocalStorageCurdApp project</h4>
-                            <img src="images/CurdApp.png" alt="solor_system" width="100%">
-
-                        </div>
-
-                        <div>
-                            <div class="project-btn flex-class">
-                                <button>
-                                    <a href=" https://ashish0772.github.io/LocalStorageCurdApp/" class="anchor">View</a>
-                                </button>
-                            </div>
-                        </div>
-
-                    </div>
+                    <!-- Dynamically project section create by js  -->
 
                 </div>
 
@@ -612,102 +446,8 @@
                 <!-- certificate-container-section -->
                 <div class="certificate-container-section grid-class">
 
+                    <!-- Dynamic card  -->
 
-                    <!-- mongoDB certificate -->
-                    <div class="certificate">
-
-                        <div>
-                            <h4>MongoDB Certificate</h4>
-                            <img src="certificate/mangodb.webp" alt="mangodb-certificate" width="100%">
-                        </div>
-
-                        <div>
-                            <div class="certificate-btn flex-class">
-                                <button>
-                                    <a href="certificate/mangodb.pdf" class="anchor">View</a>
-                                </button>
-                            </div>
-                        </div>
-
-                    </div>
-
-                    <!--Css certificate -->
-                    <div class="certificate">
-
-                        <div>
-                            <h4>CSS Certificate</h4>
-                            <img src="certificate/certificate-css.webp" alt="css-certificate" width="100%">
-                        </div>
-
-                        <div>
-                            <div class="certificate-btn flex-class">
-                                <button>
-                                    <a href="certificate/css 3 certificate.pdf" class="anchor">View</a>
-                                </button>
-                            </div>
-                        </div>
-
-                    </div>
-
-                    <!-- HTML certificate -->
-                    <div class="certificate">
-
-                        <div>
-                            <h4>HTML Certificate</h4>
-                            <img src="certificate/certificate-html.webp" alt="html-certificate" width="100%">
-                        </div>
-
-                        <div>
-                            <div class="certificate-btn flex-class">
-                                <button>
-                                    <a href="certificate/html certificate.pdf" class="anchor">View</a>
-                                </button>
-                            </div>
-                        </div>
-
-                    </div>
-
-                    <!-- Python certificate-->
-                    <div class="certificate">
-
-                        <div>
-
-                            <h4>Python Certificate</h4>
-                            <img src="certificate/python-certificate.jpg" alt="python-certificate" width="100%">
-
-                        </div>
-
-                        <div>
-                            <div class="certificate-btn flex-class">
-                                <button>
-                                    <a href="certificate/python-certificate.webp" class="anchor">View</a>
-                                </button>
-                            </div>
-                        </div>
-
-                    </div>
-
-                     <!-- Communication certificate-->
-                    <div class="certificate">
-
-                        <div>
-
-                            <h4>Communication Certificate</h4>
-                            <img src="certificate/communication-certificate.webp" alt="communication-certificate" width="100%">
-
-                        </div>
-
-                        <div>
-                            <div class="certificate-btn flex-class">
-                                <button>
-                                    <a href="certificate/communication-certificate.pdf" class="anchor">View</a>
-                                </button>
-                            </div>
-                        </div>
-
-                    </div>
-
-                    
                 </div>
 
             </div>
@@ -859,6 +599,8 @@
         </div>
 
     </div>
+
+    <script src="javascript/Data.js"></script>
 
     <script src="javascript/index.js"></script>
 </body>
